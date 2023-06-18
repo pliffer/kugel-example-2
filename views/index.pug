@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Endereço App
+        link(rel="stylesheet" href="/styles.css")
+        script(src="/app.js" defer)
+
+    body
+        h1 Busca de Endereço
+        form(id="endereco-form")
+            label(for="cep") CEP:
+            input(type="text" id="cep" name="cep" placeholder="Digite o CEP" required)
+            button(type="submit") Buscar
+
+        #resultado
+            h2 Rua:
+            p#rua

@@ -1,0 +1,8 @@
+{
+    "name": "endereco-app",
+    "version": "1.0.0",
+    "description": "Aplicativo para exibir informações de endereço com base no CEP inserido",
+    "main": "index.js",
+    "kugel": {},
+    "dependencies": {}
+}

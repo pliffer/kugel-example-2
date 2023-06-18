@@ -4,5 +4,8 @@
     "description": "Aplicativo para exibir informações de endereço com base no CEP inserido",
     "main": "index.js",
     "kugel": {},
-    "dependencies": {}
+    "dependencies": {
+        "axios": "^1.4.0",
+        "kugel": "github:pliffer/kugel"
+    }
 }
